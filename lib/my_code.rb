@@ -14,6 +14,9 @@ def reduce(source_array, starting_point = 0)
   while i < source_array.length do 
     if yield(source_array[i]) == false 
       return false
+      elsif
+      n < source_array.length do
+        
     end  
     i += 1 
   end 
