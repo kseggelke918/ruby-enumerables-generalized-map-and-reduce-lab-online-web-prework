@@ -10,6 +10,7 @@ end
 
 def reduce(source_array, starting_point = 0)
   i = 0 
+  n = 0 
   while i < source_array.length do 
     if yield(source_array[i]) == false 
       return false
