@@ -16,7 +16,8 @@ def reduce(source_array, starting_point = 0)
       return false
       elsif
       n < source_array.length do
-        total = yield
+        total = starting_point
+        total = yield(total + source_array[n])
     end  
     i += 1 
   end 
